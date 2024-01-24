@@ -22,10 +22,10 @@ $ python3 Varnish_Fastly_200.py -f ipv4.txt
 6- After the tool finishes scanning the ranges and how to show the response files for both 200ok and 500ok, use these commands👇 :
 
 $ HTTP/1.1 500 OK
-1- varnish_fastly_500.txt
+1- cat varnish_fastly_500.txt
 
 $ HTTP/1.1 200 OK
-2- varnish_fastly_200.txt
+2- cat varnish_fastly_200.txt
 
 # To increase the speed of the scan, use the following command:
 
