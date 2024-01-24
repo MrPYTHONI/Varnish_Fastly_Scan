@@ -27,6 +27,12 @@ $ HTTP/1.1 500 OK
 $ HTTP/1.1 200 OK
 2- varnish_fastly_200.txt
 
+# To increase the speed of the scan, use the following command:
+
+-1 python3 Varnish_Fastly_500.py -f ipv4.txt -t 100
+
+
+2- python3 Varnish_Fastly_200.py -f ipv4.txt -t 100
 
 # My accounts on Telegram for communication
 $ 𝐌r𝐏𝐘𝐓𝐇𝐎𝐍🎩
